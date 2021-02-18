@@ -56,10 +56,6 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Cafe_Console\1_Cafe_Console.csproj">
-      <Project>{609630e9-0aac-4079-99da-f41752c5ec66}</Project>
-      <Name>1_Cafe_Console</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Cafe_Repository\1_Cafe_Repository.csproj">
       <Project>{ba182f31-6936-4428-9508-4359f1943a05}</Project>
       <Name>1_Cafe_Repository</Name>

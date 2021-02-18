@@ -24,6 +24,7 @@ namespace _3_Badge_Repository
         public void CreateBadge (Badges badge)
         {
             _doorAccess.Add(badge.BadgeID, badge.DoorAccess);
+            
         }
 
         public void UpdateBadge (int badgeid, string doorAccess)
