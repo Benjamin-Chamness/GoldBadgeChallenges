@@ -113,8 +113,8 @@ namespace _3_Badge_Console
             badge.BadgeID = int.Parse(Console.ReadLine());
 
             Console.Clear();
-            Console.WriteLine($"What do you want to change for {badge.BadgeID}/n" +
-                $"n\" +" +
+            Console.WriteLine($"What do you want to change for {badge.BadgeID}\n" +
+               
                 $"1. Remove a door\n" +
                 $"2. Add a door\n" +
                 $"3. Return to main menu");
@@ -124,7 +124,7 @@ namespace _3_Badge_Console
             switch (answer)
             {
                 case "1":
-                    RemoveDoorFromUpdate(badge.BadgeID);
+                    RemoveDoor(badge.BadgeID);
                     break;
                 case "2":
                     AddDoorToUpdate(badge.BadgeID);
@@ -135,7 +135,7 @@ namespace _3_Badge_Console
             }
         }
 
-        public void RemoveDoorFromUpdate(int badgeid)
+        public void RemoveDoor(int badgeid)
         {
             Console.WriteLine("Please select a door to delete: ");
             string door = Console.ReadLine();
